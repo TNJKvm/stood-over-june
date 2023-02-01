@@ -1,0 +1,15 @@
+{
+  "dataset": ["get_CIFAR100", "get_CIFAR10", "get_CINIC10"],
+  "dataset_name": ["CIFAR100", "CIFAR10", "CINIC10"],
+  "model": ["ResNet18_Imagenet", "ResNet18", "ResNet18"],
+  "batch_size": [320, 320, 320],
+  "data_path": ["path/to/CIFAR100", "path/to/CIFAR10", "path/to/CINIC10"],
+  "out_path": "path/for/saving/irr/models",
+  "model_name": "RESNET18",
+  "result_csv": "./irr_training.csv",
+  "max_epochs": 150,
+  "number_datasets": 3,
+  "check_last": 10,
+  "train_set": 0,
+  "seeds": [42, 74, 47]
+}

@@ -1,0 +1,10 @@
+{
+  "irr_model": "./irr_model",
+  "seed": 42,
+  "batch_size": 160,
+  "data_path": "path/to/Clothing1M",
+  "out_path": "./results",
+  "max_epochs": 30,
+  "min_epochs": 30,
+  "check_last": 0
+}

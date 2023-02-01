@@ -1,0 +1,7 @@
+{
+  "batch_size": 320,
+  "data_path": "path/to/dataset",
+  "out_path": "./results",
+  "epochs": 150,
+  "seeds": [42]
+}

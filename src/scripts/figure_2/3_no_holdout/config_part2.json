@@ -1,0 +1,16 @@
+{
+  "dataset": ["get_CIFAR100_no_holdout", "get_CIFAR10_no_holdout", "get_CINIC10_no_holdout"],
+  "dataset_name": ["CIFAR100", "CIFAR10", "CINIC10"],
+  "model": ["SmallCNN", "SmallCNN", "SmallCNN"],
+  "batch_size": [320, 320, 320],
+  "data_path": ["path/to/CIFAR100", "path/to/CIFAR10", "path/to/CINIC10"],
+  "out_path": "./results",
+  "model_name": "CNN",
+  "result_csv": "./results/irr_no_holdout_training.csv",
+  "max_epochs": 150,
+  "number_datasets": 3,
+  "check_last": 10,
+  "train_set": 1,
+  "file_suffix": "part_2",
+  "seeds": [42, 74, 47]
+}

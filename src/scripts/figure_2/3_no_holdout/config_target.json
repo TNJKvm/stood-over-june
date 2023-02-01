@@ -1,0 +1,10 @@
+{
+  "irr_model_path": "path/to/no_holdout_irr_models_directory",
+  "batch_size": 320,
+  "data_path": "path/to/Datasets",
+  "out_path": "./results",
+  "result": "./results/target_training.csv",
+  "max_epochs": 150,
+  "check_last": 10,
+  "add_epochs": 10
+}

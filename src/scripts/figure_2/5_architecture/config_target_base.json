@@ -1,0 +1,11 @@
+{
+  "irr_model_path": "path/to/irr_cnn_models_directory",
+  "seeds": [42, 74, 47],
+  "datasets": ["CIFAR10", "CIFAR100", "CINIC10"],
+  "batch_size": 320,
+  "data_path": "/path/to/datasets",
+  "out_path": "./results",
+  "max_epochs": 150,
+  "check_last": 10,
+  "add_epochs": 10
+}

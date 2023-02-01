@@ -1,0 +1,9 @@
+{
+  "irr_model_path": "path/to/specific_irr_model",
+  "data_path": "path/to/datasets",
+  "out_path": "./results",
+  "result_csv": "target_training.csv",
+  "max_epochs": 150,
+  "check_last": 10,
+  "add_epochs": 10
+}
